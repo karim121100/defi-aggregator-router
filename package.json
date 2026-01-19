@@ -1,0 +1,17 @@
+{
+  "name": "defi-aggregator-router",
+  "version": "1.0.0",
+  "description": "Cross-AMM liquidity aggregator",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node deploy.js",
+    "quote": "node quote_finder.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.3",
+    "chalk": "^4.1.2",
+    "bignumber.js": "^9.1.0"
+  },
+  "license": "MIT"
+}
